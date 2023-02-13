@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Better clipboard",
+    "version": "1.0",
+    "description": "Basta fare copia-incolla mille volte!! Clicca l'icona, copia tutto quello che devi e ritrova tutto su un'altra scheda.",
+    "icons": {
+      "48": "icons/c48.png"
+    },
+  
+    "permissions": [
+      "tabs", "clipboardRead", "alarms" 
+    ],
+  
+    "browser_action": {
+      "default_icon": "icons/c19.png",
+      "default_title": "Start"
+    },
+  
+    "background": {
+      "scripts": ["background.js"]
+    }
+  }
+  
